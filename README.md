@@ -2,7 +2,8 @@
 trying to make this from scratch in python
 
 # wikipedia implementation
-    '# Make sure to install the necessary packages first
+    '
+    # Make sure to install the necessary packages first
     # pip install --upgrade pip
     # pip install tensorflow
     from tensorflow import keras
@@ -23,4 +24,5 @@ trying to make this from scratch in python
         print(f"Bag of word sentence 1:\n{bow}")
         print(f"We found {len(word_index)} unique tokens.")
 
-    print_bow(sentence)'
+    print_bow(sentence)
+    '
